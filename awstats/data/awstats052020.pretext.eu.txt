@@ -1,0 +1,617 @@
+AWSTATS DATA FILE 7.3 (build 20140126)
+# If you remove this file, all statistics for date 202005 will be lost/reset.
+# Last config file used to build this data file was /home/klient.dhosting.pl/artenebro/pretext.eu/awstats/conf/awstats.pretext.eu.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2039                
+POS_TIME 2699                
+POS_VISITOR 11683               
+POS_DAY 16612               
+POS_DOMAIN 3573                
+POS_LOGIN 3809                
+POS_ROBOT 3964                
+POS_WORMS 4375                
+POS_EMAILSENDER 4506                
+POS_EMAILRECEIVER 4649                
+POS_SESSION 17144               
+POS_SIDER 17352               
+POS_FILETYPES 4784                
+POS_DOWNLOADS 5111                
+POS_OS 5326                
+POS_BROWSER 5556                
+POS_SCREENSIZE 6448                
+POS_UNKNOWNREFERER 6522                
+POS_UNKNOWNREFERERBROWSER 6746                
+POS_ORIGIN 6862                
+POS_SEREFERRALS 7004                
+POS_PAGEREFS 7159                
+POS_SEARCHWORDS 7333                
+POS_KEYWORDS 7485                
+POS_MISC 2361                
+POS_ERRORS 7544                
+POS_CLUSTER 3665                
+POS_SIDER_404 7673                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200601031001 1 0 5401271177430
+FirstTime 0
+LastTime 20200531220559
+LastUpdate 20200601032244 1 0 0 0 0
+TotalVisits 136                 
+TotalUnique 98                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 140                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 510 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 545 545 315895 68 70 353122
+1 463 612 2813973 56 258 3603134
+2 11 31 317070 16 22 94741
+3 2 2 84597 22 45 183113
+4 2 2 17203 5 15 21856
+5 3 3 86037 13 82 1987028
+6 1 1 1656 67 82 381144
+7 5 13 211789 12 24 85027
+8 3 3 87868 16 20 34373
+9 166 198 1355736 67 79 359926
+10 151 344 2898354 30 45 234698
+11 95 179 3061668 18 27 1074845
+12 413 688 10595753 13 76 109718
+13 987 3271 38925430 80 218 882491
+14 1051 1980 11830461 48 83 302354
+15 734 1082 4332945 42 65 112475
+16 597 970 5530180 82 121 513488
+17 501 616 1916876 42 63 150647
+18 638 822 4363071 28 118 1451195
+19 852 2718 59023478 105 131 282786
+20 1224 5626 110158018 68 163 1637044
+21 1137 2828 37469965 59 192 519804
+22 1410 2763 18381422 96 264 842413
+23 757 1841 1601395 41 75 187092
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 11748 27138 315380840
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+googlebot 295 5840335 20200531004145 0
+phantom 184 4076370 20200531010510 0
+mj12bot 137 991849 20200530102456 0
+ahrefsbot 22 132064 20200520100604 0
+curl 8 0 20200530031000 0
+no_user_agent 7 107878 20200531010450 0
+favicon 3 23023 20200531010451 0
+python 2 1177 20200513201858 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 13
+css 7117 19568998 0 0
+png 2336 57566054 0 0
+ttf 197 1199796 0 0
+pdf 7 378257 0 0
+woff2 802 33203148 0 0
+woff 4 41296 0 0
+php 9770 6883657 0 0
+docx 2 40296 0 0
+jpg 1 89234 0 0
+js 5413 159016037 0 0
+jpeg 396 29327776 0 0
+Unknown 973 7252595 0 0
+gif 120 813696 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 3
+/.well-known/dhosting.pl.txt 4 0 0
+/download/180865b939dc8e1b40556bff1cc9e6c564d6b08a.pdf 2 0 252708
+/download/722928c1d323e7e3d6c846dee3ada959b92526d3.pdf 1 0 125549
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 12
+linuxandroid 4475 608
+winxp 14 1
+winnt 18104 10534
+win2000 27 1
+linux 3890 486
+win7 102 20
+macosx 483 77
+macosx9 6 1
+win8 7 1
+win8.1 15 4
+Unknown 14 14
+macosx8 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 42
+firefox57.0 10 10
+firefox28.0 3 3
+msie6.0 1 1
+safari7.0.3 5 0
+chrome84.0.4143.7 960 150
+chrome72.0.3626.121 1 1
+firefox52.0 2 2
+opera55.0.2994.44 3 3
+opera12.0 7 0
+msie11 1 0
+chrome58.0.3029.110 3 3
+chrome23.0.1271.95 6 0
+firefox62.0 9 9
+chrome26.0.1410.65 1 1
+chrome74.0.3729.108 1 1
+chrome74.0.3729.169 2 2
+chrome66.0.3359.181 35 35
+chrome70.0.3538.102 277 155
+msie9.0 3 3
+chrome78.26.10.1974 4 4
+chrome83.0.4103.60 272 60
+Unknown 6 6
+safari13.1 2 1
+firefox50.0 83 8
+opera12.16 7 1
+chrome37.0.2049.0 2 1
+firefox77.0 2905 1486
+opera53.0.2907.68 3 3
+chrome78.0.3904.108 2 2
+firefox76.0 3654 1568
+chrome46.0.2490.80 3 3
+firefox1.0.7 27 1
+chrome74.0.3729.131 1 1
+chrome78.0.3904.97 7002 739
+firefox75.0 367 94
+mozilla 8 8
+chrome81.0.4044.138 11441 7380
+msie10.0 2 0
+firefox51.0 2 2
+chrome35.0.1916.47 1 1
+chrome41.0.2228.0 5 0
+firefox36.0 9 0
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20200513201654
+Go-http-client/1.1 20200531185241
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Go-http-client/1.1 20200531185241
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 597 673
+From1 0 0
+From2 0 6
+From3 1 1
+From4 11150 26458
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 0 6
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://builtwith.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+403 2 1396
+302 688 1895140
+301 10 7060
+404 457 322392
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 78
+/robots.txt 66 -
+/asset-manifest.json 18 https://pretext.eu/
+/admin/assets/js/vendor/raphael/raphael-min.js 2 http://pretext.eu/admin/
+/admin/assets/js/vendor/daterangepicker/moment.min.js 2 http://pretext.eu/admin/
+/css/bootstrap.css.map 4 -
+/admin/includes/general.js 1 -
+/paymentProcess 1 -
+/admin/assets/js/main.js 2 http://pretext.eu/admin/
+/admin/assets/js/vendor/coolclock/excanvas.js 2 http://pretext.eu/admin/
+/admin/assets/js/vendor/d3/d3.layout.min.js 2 http://pretext.eu/admin/
+/admin/assets/js/vendor/daterangepicker/daterangepicker.js 2 http://pretext.eu/admin/
+/admin/assets/js/vendor/flot-spline/jquery.flot.spline.min.js 2 http://pretext.eu/admin/
+/js/lightbox.min.map 3 -
+/admin/assets/js/vendor/owl-carousel/owl.carousel.min.js 2 http://pretext.eu/admin/
+/updateBank.php 2 https://pretext.eu/wallet
+/fckeditor/editor/filemanager/connectors/php/upload.php 1 -
+/horde/imp/test.php 6 -
+/fastFilter-Zdrowie%20i%20medycyna 1 -
+/fastFilter-Prace%20naukowe 1 -
+/postKorekta 1 -
+/admin/assets/js/vendor/animsition/js/jquery.animsition.min.js 2 http://pretext.eu/admin/
+/admin/assets/js/vendor/datatables/js/jquery.dataTables.min.js 2 http://pretext.eu/admin/
+/fastFilter-Budownictwo%20i%20nieruchomo%C5%9Bci 2 -
+/payout 5 https://pretext.eu/wallet
+/sql 1 -
+/admin/assets/js/vendor/chosen/chosen.jquery.min.js 2 http://pretext.eu/admin/
+/wp-includes/js/jquery/jquery.js 1 -
+/admin/assets/js/vendor/datetimepicker/js/bootstrap-datetimepicker.min.js 2 http://pretext.eu/admin/
+/admin/assets/js/vendor/slimscroll/jquery.slimscroll.min.js 2 http://pretext.eu/admin/
+/admin/assets/js/vendor/morris/morris.min.js 2 http://pretext.eu/admin/
+/js/bootstrap.min.js.map 3 -
+/admin/assets/js/vendor/filestyle/bootstrap-filestyle.min.js 2 http://pretext.eu/admin/
+/vendor/phpunit/phpunit/build.xml 1 -
+/privacy 1 -
+/administrator/ 1 -
+/admin/assets/js/vendor/rickshaw/rickshaw.min.js 2 http://pretext.eu/admin/
+/misc/ajax.js 1 -
+/admin/assets/js/vendor/datatables/extensions/dataTables.bootstrap.js 2 http://pretext.eu/admin/
+/admin/assets/js/vendor/jRespond/jRespond.min.js 2 http://pretext.eu/admin/
+/phpMyAdmin/scripts/setup.php 6 -
+/js/header-rollup-554.js 1 -
+/login 2 -
+/fastFilter-Styl%20%C5%BCycia 2 -
+/cgi-bin/test-cgi 6 -
+/admin/assets/js/vendor/coolclock/coolclock.js 2 http://pretext.eu/admin/
+/passForgot 1 -
+/administrator/language/en-GB/install.xml 1 -
+/faq 2 -
+/admin/assets/js/vendor/screenfull/screenfull.min.js 2 http://pretext.eu/admin/
+/admin/assets/js/vendor/bootstrap/bootstrap.min.js 2 http://pretext.eu/admin/
+/admin/assets/js/vendor/summernote/summernote.min.js 2 http://pretext.eu/admin/
+/humans.txt 3 -
+/admin/assets/js/vendor/easypiechart/jquery.easypiechart.min.js 2 http://pretext.eu/admin/
+/admin/assets/js/vendor/flot-tooltip/jquery.flot.tooltip.min.js 2 http://pretext.eu/admin/
+/phpmyadmin/scripts/setup.php 6 -
+/.env 1 -
+/partners 1 -
+/admin/assets/js/vendor/flot/jquery.flot.min.js 2 http://pretext.eu/admin/
+/wallet&correct=Twoje%20konto%20bankowe%20zosta%C5%82o%20zaktualizowane! 1 -
+/dashboard 2 -
+/loign 1 -
+/administrator/help/en-GB/toc.json 1 -
+/fastFilter-Artyku%C5%82y%20specjalistyczne%20i%20naukowe 2 -
+/fastFilter-Motoryzacja 1 -
+/fastFilter-Opis 1 -
+/ads.txt 3 -
+/images/editor/separator.gif 1 -
+/admin/view/javascript/common.js 1 -
+/cron.php 1 -
+/admin/assets/js/vendor/d3/d3.min.js 2 http://pretext.eu/admin/
+/admin/assets/js/vendor/sparkline/jquery.sparkline.min.js 2 http://pretext.eu/admin/
+/pages/view/12/pisz-dla-nas 1 -
+/download/ed4b9aaa21f19766a95532f7ca0bb77116b1483b.docx 1 https://pretext.eu/joinOffer-8
+/zleceniaKorekta 1 -
+/plugins/system/debug/debug.xml 1 -
+/home/set-desktop/0 229 http://www.pretext.eu/
+/phpMyAdmin/ 1 -
+/kalkulator 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 140
+83.11.174.60 8094 12193 67896267 20200526212450
+89.64.35.118 1641 3182 12014911 20200528185525
+83.11.152.16 652 2539 34199509 20200529143826
+66.249.93.35 335 2915 69461714 20200529143542
+66.249.93.38 278 2585 57347527 20200529143541
+66.249.93.40 246 2297 51749060 20200529143542
+109.173.149.118 93 171 2445525 20200522150451
+83.11.47.51 82 232 4877342 20200515125631
+37.47.48.31 79 152 1967316 20200528181210
+89.8.88.214 42 121 1647891 20200528131133
+34.211.41.45 0 1 12086 
+52.42.62.187 1 1 8673 20200520161759
+54.212.48.44 0 1 2916 
+18.236.92.117 1 1 8673 20200517111258
+52.37.83.184 0 1 1417 
+52.13.163.68 0 1 6814 
+46.243.147.130 1 1 8679 20200517204835
+192.71.2.171 1 1 8548 20200531185241
+50.112.54.253 0 1 10085 
+34.220.171.100 2 2 17346 20200516092952
+5.173.32.251 21 90 887276 20200528130154
+52.28.236.88 1 1 87 20200513201653
+82.223.242.67 1 1 936 20200519184337
+129.150.97.201 1 1 3271 20200515081450
+54.218.111.202 2 2 17074 20200526164039
+54.189.180.250 0 1 5854 
+52.15.254.228 1 1 87 20200513201652
+51.158.109.172 1 1 8673 20200522021532
+54.201.96.238 1 1 8548 20200529161839
+34.215.193.48 0 1 67427 
+188.165.235.173 1 1 8530 20200526072239
+89.35.39.180 1 1 1656 20200513221259
+34.221.147.89 2 2 17346 20200519162541
+34.216.70.139 0 1 29879 
+139.59.2.181 1 1 936 20200527195316
+18.237.116.132 1 1 8548 20200531091053
+54.188.59.226 0 1 15359 
+52.34.112.204 0 1 34633 
+34.218.227.82 0 1 291 
+83.11.108.2 7 79 2483025 20200516162502
+54.191.41.146 1 1 8530 20200527073023
+188.166.55.115 1 1 936 20200526212818
+66.249.81.136 5 16 358053 20200528135626
+54.185.25.79 0 1 121 
+192.99.4.63 1 1 1656 20200517011940
+52.10.237.200 0 2 47090 
+34.78.87.135 1 1 8537 20200522232424
+54.38.177.68 1 1 936 20200518201632
+52.33.255.187 0 1 67784 
+34.209.243.204 0 1 6723 
+37.120.156.8 3 3 86037 20200521102228
+188.213.49.210 1 1 1656 20200515192520
+46.105.100.224 1 1 1656 20200516110454
+192.36.71.133 1 1 8530 20200524042859
+18.237.161.74 1 1 8530 20200525231702
+52.41.74.115 2 2 17103 20200531163710
+45.141.158.3 1 1 1656 20200525111236
+34.222.110.104 1 1 8548 20200530164448
+3.127.108.83 1 1 8673 20200516104247
+52.24.3.111 0 2 1058034 
+94.134.84.146 1 1 1177 20200514094953
+34.219.22.200 0 1 14957 
+34.216.41.136 0 2 18961 
+34.215.223.247 0 1 67427 
+185.232.21.117 3 3 89302 20200524235515
+34.217.73.84 0 2 46704 
+54.200.187.127 0 1 1075 
+47.75.126.75 1 1 936 20200525171853
+51.15.192.148 1 1 8673 20200522014225
+95.217.89.25 1 1 9164 20200525072756
+150.136.235.29 2 2 84597 20200521030610
+54.213.198.177 2 2 17352 20200522171928
+18.237.105.71 0 1 19658 
+34.209.188.16 2 2 17060 20200525163153
+95.217.104.173 1 1 6425 20200531220559
+34.212.244.88 0 1 685 
+35.160.194.211 0 1 12086 
+168.138.144.172 2 2 84597 20200517151358
+192.95.29.220 1 1 8530 20200528100447
+192.36.248.249 1 1 8673 20200516040351
+54.245.59.145 1 1 8673 20200517161426
+66.249.81.134 3 21 344512 20200528135627
+34.219.16.95 0 1 19658 
+114.242.9.143 2 2 84597 20200517190344
+192.99.36.177 1 1 1656 20200518061324
+34.222.10.47 0 1 17200 
+100.20.65.171 1 1 8673 20200516160651
+54.202.0.99 0 1 15270 
+34.242.249.211 2 2 17103 20200528192219
+54.200.117.1 0 2 28215 
+35.197.250.45 1 1 936 20200525181257
+66.102.9.90 7 46 936200 20200529153646
+52.42.162.146 0 1 15270 
+34.222.236.23 2 2 17067 20200527160718
+54.200.161.77 0 2 11550 
+54.189.134.193 0 1 15424 
+34.219.124.239 0 1 11310 
+54.218.179.88 0 1 19658 
+83.28.177.203 1 2 16281 20200520094329
+52.26.206.8 0 1 958 
+35.163.206.22 1 1 8548 20200531010447
+193.23.3.19 3 3 25590 20200524150559
+35.196.37.206 1 1 936 20200527211731
+120.24.56.245 1 1 936 20200523015408
+34.215.185.140 0 1 7522 
+66.102.9.92 3 17 239394 20200529153609
+54.202.202.251 0 1 17211 
+18.237.77.233 0 1 11877 
+84.17.49.45 3 3 86037 20200517051334
+18.237.255.139 0 1 6723 
+52.55.246.143 2 2 84597 20200517085203
+52.24.150.107 2 2 17060 20200523164950
+84.17.51.51 3 3 86037 20200515162927
+18.196.96.172 1 1 87 20200513201652
+34.222.142.126 0 1 109498 
+66.102.9.88 12 49 468749 20200529153650
+34.219.240.185 1 1 8673 20200521162242
+54.39.144.199 1 27 94998 20200522212020
+156.67.218.156 1 1 3271 20200515021646
+54.213.221.233 2 2 17346 20200518164441
+34.210.54.38 1 1 8673 20200517005600
+54.148.15.51 2 2 2354 20200515070056
+66.133.109.36 2 2 174 20200513201653
+66.249.81.131 0 16 104083 
+3.14.255.131 1 1 87 20200513201654
+89.8.69.27 31 156 984364 20200528143351
+52.38.4.149 2 2 17060 20200524164222
+64.111.121.238 1 1 936 20200516092422
+84.17.51.49 3 3 86037 20200519213852
+95.216.113.228 1 1 9164 20200525093322
+54.187.76.115 0 1 1354 
+91.121.76.25 1 1 8537 20200526022848
+167.99.154.209 7 77 1701992 20200522200614
+51.159.18.103 1 1 9057 20200522142547
+54.200.42.71 1 1 8548 20200529160928
+35.164.148.198 2 2 17096 20200528170543
+34.222.54.115 1 1 8673 20200520160704
+110.93.226.180 1 1 1656 20200519203402
+34.219.122.99 0 1 14957 
+34.209.232.166 2 2 174 20200513201653
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 19
+20200513 12 12 3529 9
+20200514 1 1 1177 1
+20200515 87 237 4972754 6
+20200516 14 86 2528982 7
+20200517 14 45 1881481 9
+20200518 4 4 19938 3
+20200519 7 7 105975 4
+20200520 3 4 33627 3
+20200521 2995 5143 13935662 4
+20200522 5604 13519 215111348 14
+20200523 246 286 1386414 4
+20200524 9 9 140482 4
+20200525 30 31 145215 10
+20200526 146 802 9590757 9
+20200527 265 721 5076514 9
+20200528 2197 5659 52108748 24
+20200529 107 557 8097306 10
+20200530 1 1 8548 1
+20200531 6 14 232383 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 8
+5mn-15mn 8
+30s-2mn 10
+15mn-30mn 3
+0s-30s 104
+2mn-5mn 1
+30mn-1h 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 68
+/inc/myNotifs.php 9181 2482853 2 26
+/ 474 3871089 92 61
+/index 394 3083400 2 0
+/fonts/Flaticon.woff2 202 1408848 1 1
+/fonts/fa-solid-900.woff2 200 14629152 3 0
+/fonts/fa-regular-400.woff2 198 2608128 2 3
+/fonts/BITSUMIS.TTF 197 1199796 5 0
+/fonts/fa-brands-400.woff2 194 14159560 1 2
+/admin/ 88 505577 2 6
+/wallet 87 551932 0 0
+/joinOffer-13 1 7690 0 0
+/admin/assets/fonts/fontawesome-webfont.woff2 8 397460 0 0
+/mojeZlecenia 32 193491 0 0
+/admin/login.php 3 4101 0 0
+/paymentProcess 6 33957 0 0
+/joinOffer-8&copy=1 1 7078 0 0
+/joinOffer-1 2 13928 0 0
+/kontakt 23 329336 1 6
+/notif-3 1 6009 0 0
+/edytujZlecenie-18 9 86965 0 0
+/terms 2 10697 0 0
+/admin/login 37 57327 0 0
+/admin/settings 1 5602 0 0
+/postKorekta 4 37288 0 0
+/payout 1 0 0 0
+/.well-known/acme-challenge/3v-9BKD2yw6D7lItaQ8Iyn2ROYyLNcc-EzRG2bTHu_E 4 348 2 4
+/register 18 138193 0 0
+/notif-70 1 6035 0 0
+/admin/index 22 148380 0 2
+/privacy 1 5592 0 0
+/podglad-2 1 9087 0 0
+/edytujZlecenie-2 1 9815 0 0
+/joinOffer-17 10 72049 0 0
+/wp-login.php 16 20016 16 16
+/notif-6 1 6020 0 0
+/joinOffer-8&correct=Zapisano%20wersj%C4%99%20robocz%C4%85 1 7111 0 0
+/joinOffer-18 24 169475 0 0
+/login 38 464642 3 7
+/edytujZlecenie-1 1 9925 0 0
+/fonts/summernote.woff 4 41296 0 0
+/passForgot 2 10715 0 0
+/notif-4 2 11957 0 0
+/joinOffer-2 5 35780 0 0
+/inbox 2 11580 0 0
+/edytujZlecenie-8 9 88544 0 0
+/download/e227c7e706cafc89a81cb98ada9f8a52021dd500.docx 1 20148 0 0
+/edytujZlecenie-18&error=Nie%20mo%C5%BCesz%20zmieni%C4%87%20ceny%20i%20d%C5%82ugo%C5%9Bci%20tekstu,%20jeden%20z%20wykonawc%C3%B3w%20ju%C5%BC%20podj%C4%85%C5%82%20si%C4%99%20realizacji! 3 29971 0 0
+/edytujZlecenie-8&error=Nie%20mo%C5%BCesz%20zmieni%C4%87%20ceny%20i%20d%C5%82ugo%C5%9Bci%20tekstu,%20jeden%20z%20wykonawc%C3%B3w%20ju%C5%BC%20podj%C4%85%C5%82%20si%C4%99%20realizacji! 1 10032 0 0
+/admin/login-2 3 4496 0 0
+/partners 4 20633 0 0
+/podglad-1 1 9258 0 0
+/dashboard 64 467024 0 0
+/notif-2 2 11926 0 0
+/download/41619031bcaa8b597d7c894c79608e1db1e6067f.docx 1 20148 0 0
+/joinOffer-8 18 128291 0 0
+/cron.php 8 21 0 0
+/joinOffer-2&correct=Zapisano%20wersj%C4%99%20robocz%C4%85 1 7817 0 0
+/history 16 93725 0 0
+/notif-5 1 6019 0 0
+/notif-7 1 6016 0 0
+/notif-71 1 6043 0 0
+/zleceniaKorekta 39 309380 0 0
+/zleceniaTekst 33 263239 0 0
+/notif-1 3 17964 0 0
+/postTekst 7 46499 0 0
+/kalkulator 26 178848 0 0
+/howItWorks 1 5118 0 0
+/.well-known/acme-challenge/20pDOkbmEi0Kd5TAuCIjJc8eG0vdmP2sC5kkbiiXNV8 4 348 4 2
+END_SIDER
